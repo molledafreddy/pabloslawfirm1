@@ -1,0 +1,216 @@
+.boton-play{
+    width: auto;
+    height: auto;
+    color: #757575;
+    font-size: 10vh;
+    border-radius: 100%;
+}
+
+.modal_video{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.video-android{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.zona-1{
+    background: #1E88E5;
+    color: #fff;
+    padding: 1%;
+}
+.zona-2{
+    background: #EEEEEE;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.zona-3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pie-pagina{
+    background: #212121;
+    color: #fff;
+}
+
+.logo{
+    z-index: 13;
+    top: 15px;
+    left: 13vh;
+    display: flex;
+    position: absolute;
+}
+
+.menu{
+    height: 9vh;
+}
+
+@media (max-width: 992px) {
+    .menu{
+        height: auto;
+    }
+    .logo{
+        display:none
+    }
+}
+
+@media (max-width: 102px) {
+    .menu{
+        height: auto;
+    }
+
+    .logo{
+        display:none
+    }
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+ .modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.services {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          border-radius: 50%;
+          box-shadow: 10px 10px 40px #999;
+}
+ 
+.services:hover {
+  -webkit-transform: rotate(-30deg);
+     -moz-transform: rotate(-30deg);
+       -o-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.visas {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          border-radius: 50%;
+          box-shadow: 10px 10px 40px #999;
+}
+ 
+.visas:hover {
+         -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.process {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          border-radius: 50%;
+          box-shadow: 10px 10px 40px #999;
+}
+ 
+.process:hover {
+  -webkit-transform: rotate(40deg);
+     -moz-transform: rotate(40deg);
+       -o-transform: rotate(40deg);
+      -ms-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.foot {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          border-radius: 50%;
+          box-shadow: 3px 3px 10px #999;
+}
+ 
+.foot:hover {
+         -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
